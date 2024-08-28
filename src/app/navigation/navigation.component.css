@@ -115,3 +115,11 @@ input {
     display: none;
   }
 }
+
+@media (max-width: 598px) {
+  .navigation {
+    width: 598px;
+    overflow-x: scroll;
+    cursor: all-scroll;
+  }
+}
