@@ -55,6 +55,9 @@ input {
 
 .cart {
   color: #000;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .language {
@@ -89,6 +92,26 @@ input {
 
 @media (max-width: 920px) {
   .teach {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .navigation {
+    justify-content: space-between;
+  }
+
+  .hamburger,
+  .search-mobile {
+    display: block !important;
+    color: #000;
+  }
+
+  .signUp,
+  .loginBtn,
+  .language,
+  .categories,
+  .search {
     display: none;
   }
 }
