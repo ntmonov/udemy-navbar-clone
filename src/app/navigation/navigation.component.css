@@ -1,0 +1,60 @@
+.navigation {
+  height: 80px;
+  background-color: #fff;
+  gap: 0.625rem;
+}
+
+.logo {
+  /* border: 1px solid red; */
+}
+
+.logo span {
+  position: relative;
+  padding: 0.7rem 0.5rem 0.5rem 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.logo i {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  color: rgb(59, 25, 143);
+}
+
+.modal {
+  position: absolute !important;
+  left: -400px;
+  top: 80%;
+  height: 300px;
+}
+
+input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.search {
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 18px;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.search i {
+  padding-left: 0.5px;
+  padding-right: 1rem;
+  color: #ccc;
+}
+
+.cart {
+  color: #000;
+}
+
+.language {
+  color: #000;
+}
