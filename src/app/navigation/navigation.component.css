@@ -2,6 +2,7 @@
   height: 80px;
   background-color: #fff;
   gap: 0.625rem;
+  padding-inline: 1rem;
 }
 
 .logo {
@@ -57,4 +58,29 @@ input {
 
 .language {
   color: #000;
+}
+
+.loginBtn {
+  border: 1px solid #000;
+  padding: 0.5rem 1rem;
+  color: #000;
+  background-color: #fff;
+}
+
+.signUp {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background-color: #000;
+  border: none;
+}
+
+.language {
+  border: 1px solid #000;
+  padding: 0.5rem;
+}
+
+@media (max-width: 1080px) {
+  .udemy-business {
+    display: none;
+  }
 }
