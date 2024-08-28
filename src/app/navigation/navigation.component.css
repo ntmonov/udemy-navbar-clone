@@ -50,6 +50,7 @@ input {
   padding-left: 0.5px;
   padding-right: 1rem;
   color: #ccc;
+  cursor: not-allowed;
 }
 
 .cart {
@@ -81,6 +82,13 @@ input {
 
 @media (max-width: 1080px) {
   .udemy-business {
+    display: none;
+  }
+}
+
+
+@media (max-width: 920px) {
+  .teach {
     display: none;
   }
 }
